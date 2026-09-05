@@ -14,6 +14,7 @@ Source of [https://hanbaofu.github.io](https://hanbaofu.github.io), built with
 | Bio, photo, interests, education, social links | `content/authors/admin/` |
 | Publications (one folder per paper) | `content/publications/` |
 | Homepage sections (on/off + order) | `content/home/` |
+| Academic service list | `content/home/service.md` |
 | News items | `content/news/` (one folder per item) |
 
 ## Updating the publication list
