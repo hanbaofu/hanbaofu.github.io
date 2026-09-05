@@ -67,7 +67,7 @@ Design (SUTD), under the supervision of Prof.
 I received my Ph.D. from the School of Cyber Science and Engineering, Southeast
 University, where I was advised by Prof. Bing Li. From 2024 to 2026, I was also a
 visiting Ph.D. student at the National University of Singapore, advised by
-<a href="https://www.comp.nus.edu.sg/~ooibc/" target="_blank" style="text-decoration: none;">Prof. Beng Chin Ooi</a>,
+<a href="https://www.comp.nus.edu.sg/~dbsystem/people/" target="_blank" style="text-decoration: none;">Prof. Beng Chin Ooi</a>,
 where I worked on efficient indexing in
 <a href="https://neurdb.org/people" target="_blank" style="text-decoration: none;">NeurDB</a>.
 
