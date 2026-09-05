@@ -22,14 +22,13 @@ organizations:
     url: https://www.sutd.edu.sg/
 
 # Short bio (displayed in user profile at end of posts)
-bio: Research Fellow at SUTD, working on machine learning and optimization techniques for data systems.
+bio: Research Fellow at SUTD, working on AI-powered autonomous data systems, efficient query processing, and data security.
 
 # Interests to show in About widget
 interests:
-  - Self-Designing Learned Indexes
-  - Secure Learned Indexes
-  - Privacy-Preserving Federated Learning
-  - Machine Learning for Data Systems
+  - Self-design and dynamic optimization of learned indexes
+  - Secure and privacy-preserving learned indexes
+  - Security for AI-powered data systems
 
 # Education to show in About widget
 education:
@@ -76,9 +75,9 @@ where I worked on efficient indexing in
 
 ### Research ##
 
-My research focuses on machine learning and optimization techniques for data
-systems, including:
+My research focuses on AI-powered autonomous data systems, efficient query
+processing, and data security. My current research interests include:
 
-  - **Self-designing learned indexes**
-  - **Secure learned indexes**
-  - **Privacy-preserving federated learning**
+  - **Self-design and dynamic optimization of learned indexes**
+  - **Secure and privacy-preserving learned indexes**
+  - **Security for AI-powered data systems**
