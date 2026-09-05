@@ -1,8 +1,8 @@
 ---
-active: false
+active: true
 widget: portfolio
 headless: true
-weight: 20
+weight: 30
 title: News
 subtitle: ''
 content:
@@ -11,13 +11,11 @@ content:
   filter_button:
     - name: All
       tag: '*'
-    - name: Job
-      tag: Job
-    - name: Personal
-      tag: Personal
-    - name: Outreach
-      tag: Outreach
-  count: 3
+    - name: Publication
+      tag: Publication
+    - name: Career
+      tag: Career
+  count: 5
   offset: 0
 design:
   columns: '2'

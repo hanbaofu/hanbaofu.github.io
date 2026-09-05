@@ -15,7 +15,7 @@ Source of [https://hanbaofu.github.io](https://hanbaofu.github.io), built with
 | Publications (one folder per paper) | `content/publications/` |
 | Homepage sections (on/off + order) | `content/home/` |
 | Academic service list | `content/home/service.md` |
-| News items | `content/news/` (section currently disabled) |
+| News items | `content/news/` (one folder per item) |
 
 Publications are ordered by the `weight` field in each paper's front matter
 (smaller = higher up).
