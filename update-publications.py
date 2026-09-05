@@ -14,6 +14,15 @@ import sys
 
 SCHOLAR_URL = "https://scholar.google.com/citations?user=hjrZh74AAAAJ&hl"
 AUTHOR_NAMES = ("Baofu Han", "Han Baofu")  # bolded in the author list
+
+# Papers on the Scholar profile that should NOT appear on the website.
+# Deleting the folder under content/publications/ is not enough on its own:
+# the collector would re-create it on the next run. List the title here too.
+# Matched case-insensitively against the start of the title.
+EXCLUDED_TITLES = (
+    "Blockchain-based distributed data integrity auditing scheme",
+    "Dynamic incentive design for federated learning based on consortium blockchain",
+)
 OUT_DIR = "content/publications/"
 SUBMODULE = ".submodule/scholar-collector"
 
@@ -47,6 +56,15 @@ def main():
     pubs = fetch_publications(SCHOLAR_URL, verbose=True)
     if not pubs:
         sys.exit("No publications fetched (Google Scholar may be rate-limiting).")
+
+    kept = []
+    for pub in pubs:
+        title = (pub.get("title") or "").strip().lower()
+        if any(title.startswith(x.lower()) for x in EXCLUDED_TITLES):
+            print(f"skipped (excluded): {pub.get('title')}")
+            continue
+        kept.append(pub)
+    pubs = kept
     # Only creates folders that do not exist yet; existing entries are left alone.
     add_missing_publications(pubs, OUT_DIR, AUTHOR_NAMES[0], verbose=True)
     bold_own_name(OUT_DIR)
