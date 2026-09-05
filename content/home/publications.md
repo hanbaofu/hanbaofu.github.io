@@ -31,7 +31,7 @@ content:
   # Always link to the full publication list, not just when truncated.
   archive:
     enable: true
-    link: /publications/
+    link: /publications.html
     text: See all publications
 design:
   # Choose a view for the listings:
