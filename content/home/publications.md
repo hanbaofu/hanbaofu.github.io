@@ -7,8 +7,8 @@ headless: true
 # Order that this section appears on the page.
 weight: 40
 
-title: Publications
-subtitle: 'See also my [Scholar](https://scholar.google.com/citations?user=9fD2JlYAAAAJ&hl) profile'
+title: Selected Publications
+subtitle: 'See also my [Google Scholar](https://scholar.google.com/citations?user=hjrZh74AAAAJ) profile'
 
 content:
   # Filter on criteria
@@ -23,11 +23,13 @@ content:
     exclude_future: false
     exclude_past: false
   # Choose how many pages you would like to display (0 = all pages)
-  count: 6
+  count: 0
   # Choose how many pages you would like to offset by
   offset: 0
-  # Page order: descending (desc) or ascending (asc) date.
-  order: desc
+  # Order by the `weight` set in each publication's front matter,
+  # so the list keeps the order used on the previous homepage.
+  sort_by: Weight
+  sort_ascending: true
 design:
   # Choose a view for the listings:
   view: citation

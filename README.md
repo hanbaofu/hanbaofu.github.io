@@ -1,48 +1,36 @@
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-![Workflow Status](https://github.com/simongravelle/simongravelle.github.io/actions/workflows/gh-pages.yml/badge.svg)
+# Baofu Han's Homepage
 
-# Academic template
+Source of [https://hanbaofu.github.io](https://hanbaofu.github.io), built with
+[Hugo](https://gohugo.io/) and deployed automatically to GitHub Pages by
+`.github/workflows/gh-pages.yml` on every push to `main`.
 
-A simple academic template that is easy to deploy on GitHub page, and relatively
-easy to customize using css. You can find the [live](https://simongravelle.github.io/)
-version, and my resume [here](https://simongravelle.github.io/files/resume/resume-simon-gravelle.pdf).
+## Where to edit what
 
-## Automatic update of the publication list
+| What | File |
+|---|---|
+| Site title / URL | `config/_default/config.yaml` |
+| Theme, footer, SEO, repo link | `config/_default/params.yaml` |
+| Navigation bar | `config/_default/menus.yaml` |
+| Bio, photo, interests, education, social links | `content/authors/admin/` |
+| Publications (one folder per paper) | `content/publications/` |
+| Homepage sections (on/off + order) | `content/home/` |
+| Academic service list | `content/home/service.md` |
+| News items | `content/news/` (section currently disabled) |
 
-The list of publications is updated automatically from Google Scholar using
-the [scholar-collector](https://github.com/simongravelle/scholar-collector).
+Publications are ordered by the `weight` field in each paper's front matter
+(smaller = higher up).
 
-## Overview
-
-[![image](static/img/Screenshot01.png)](https://simongravelle.github.io/)
-
-[![image](static/img/Screenshot02.png)](https://simongravelle.github.io/)
-
-## Credit
-
-This template was originally taken from [wowchemy](https://wowchemy.com/), with
-some custom CSS adapted from [nickballousite](https://github.com/nballou) webpage.
-
-## How to build locally
-
-To build locally on your computer, type:
+## Build locally
 
 ```bash
 hugo server
 ```
 
-## How to modify
+Requires Hugo **extended** (the CI uses 0.140.2).
 
-After cloning this repository:
+## Credit
 
-- add your own content in the [content](content/) folder,
-- modify the custom css script in [assets/scss/custom.scss](assets/scss/custom.scss),
-- enter your publications in [content/publication/](content/publication/).
-- replace Simon Gravelle by your name in [layouts/partials/widgets/about.html](layouts/partials/widgets/about.html).
-
-## How to deploy
-
-In Settings, Pages, select:
-
-- Deploy from a branch as Source
-- gh-pages, `/(root)` as Branch
+This site is based on the academic template by
+[Simon Gravelle](https://github.com/simongravelle/simongravelle.github.io),
+itself adapted from [wowchemy](https://wowchemy.com/) with custom CSS from
+[nickballousite](https://github.com/nballou).

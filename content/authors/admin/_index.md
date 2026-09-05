@@ -1,10 +1,10 @@
 ---
 # Display name
-title: Simon Gravelle
+title: Baofu Han
 
 # Full name (for SEO)
-first_name: Simon
-last_name: Gravelle
+first_name: Baofu
+last_name: Han
 
 # Status emoji
 status:
@@ -14,77 +14,71 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: CNRS research scientist
+role: Research Fellow
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: LIPhy, Grenoble, France
-    url: https://liphy.univ-grenoble-alpes.fr/
+  - name: Singapore University of Technology and Design (SUTD)
+    url: https://www.sutd.edu.sg/
 
 # Short bio (displayed in user profile at end of posts)
-bio: Computer physicist in soft matter and fluids at interfaces in LIPhy (UGA, CNRS), in Grenoble, France.
+bio: Research Fellow at SUTD, working on machine learning and optimization techniques for data systems.
 
 # Interests to show in About widget
 interests:
-  - Soft Matter
-  - Fluid at interface
-  - Computer simulations
+  - Self-Designing Learned Indexes
+  - Secure Learned Indexes
+  - Privacy-Preserving Federated Learning
+  - Machine Learning for Data Systems
 
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Nanofluidics
-      institution: University of Lyon (France)
-      year: 2015
+    - course: Ph.D. in Cyber Science and Engineering
+      institution: Southeast University
+      year:
+    - course: Visiting Ph.D. Student
+      institution: National University of Singapore
+      year: 2024-2026
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
-#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "/#contact" for contact widget.
-# Alternatively, use `google-scholar` icon from `ai` icon pack
 social:
   - icon: envelope
     icon_pack: fas
-    link: mailto:simon.gravelle@cnrs.fr
+    link: mailto:baofu.han@comp.nus.edu.sg
+  - icon: google-scholar
+    icon_pack: ai
+    link: https://scholar.google.com/citations?user=hjrZh74AAAAJ
+    label: Google Scholar
   - icon: github
     icon_pack: fab
-    link: https://github.com/simongravelle
+    link: https://github.com/hanbaofu
     display:
       header: true
-  - icon: mastodon
-    icon_pack: fab
-    link: https://mastodon.social/@simongravelle
-    label: Follow me on Mastodon
-  - icon: graduation-cap
-    icon_pack: fas
-    link: https://scholar.google.com/citations?user=9fD2JlYAAAAJ&hl
-  - icon: cv
-    icon_pack: ai
-    link: files/resume/resume-simon-gravelle.pdf
 
 highlight_name: true # Highlight the author in author lists? (true/false)
 ---
 
 ### About me ##
 
-I am a computational physicist specializing in soft matter and fluids at interfaces, working at the LIPhy institute in Grenoble, France. In parallel, I serve as the Scientific Secretary of Section 08 of the National Committee.
-
-<a href="https://github.com/simongravelle" target="_blank" style="float: right">
-  <img src="https://raw.githubusercontent.com/simongravelle/simongravelle.github.io/refs/heads/main/static/img/water-in-polymer.png" alt="Water in polymer - molecular dynamics" width="200">
-</a>
-
-<span style="display: block; height: 8px;"></span>
-
-### What I share on <a href="https://github.com/simongravelle" target="_blank" style="text-decoration: none;">GitHub</a> ##
-
-  - Input files for molecular simulations
-  - Scripts for preparing and analyzing simulations
-  - Data and scripts from my recent publications
+I am currently a Research Fellow at the Singapore University of Technology and
+Design (SUTD), under the supervision of Prof.
+<a href="https://www.sutd.edu.sg/profile/chee-yeow-meng/" target="_blank" style="text-decoration: none;">CHEE Yeow Meng</a>.
+I received my Ph.D. from the School of Cyber Science and Engineering, Southeast
+University, where I was advised by Prof. Bing Li. From 2024 to 2026, I was also a
+visiting Ph.D. student at the National University of Singapore, advised by
+<a href="https://www.comp.nus.edu.sg/~ooibc/" target="_blank" style="text-decoration: none;">Prof. Beng Chin Ooi</a>,
+where I worked on efficient indexing in
+<a href="https://neurdb.org/people" target="_blank" style="text-decoration: none;">NeurDB</a>.
 
 <span style="display: block; height: 8px;"></span>
 
-### My primary outreach projects ##
+### Research ##
 
-  - <a href="https://github.com/lammpstutorials" target="_blank" style="text-decoration: none;">LAMMPS tutorials</a> for LAMMPS beginners
-  - <a href="https://github.com/mdcourse" target="_blank" style="text-decoration: none;">Guides</a> for implementing molecular simulations from scratch
+My research focuses on machine learning and optimization techniques for data
+systems, including:
 
+  - **Self-designing learned indexes**
+  - **Secure learned indexes**
+  - **Privacy-preserving federated learning**
