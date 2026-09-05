@@ -28,6 +28,11 @@ content:
   offset: 0
   # Page order: descending (desc) or ascending (asc) date.
   order: desc
+  # Always link to the full publication list, not just when truncated.
+  archive:
+    enable: true
+    link: /publications/
+    text: See all publications
 design:
   # Choose a view for the listings:
   view: citation
