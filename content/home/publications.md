@@ -15,7 +15,7 @@ content:
   filters:
     folders:
       - publications
-    tag: ''
+    tag: 'first-author'
     category: ''
     publication_type: ''
     author: ''
